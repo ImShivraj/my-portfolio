@@ -34,7 +34,7 @@ body{
 .navbar ul{
     display: flex;
     width: 300px;
-    padding-left: 11px;
+    padding-left: 26px;
 }
 .navbar ul li{
     position: relative;
