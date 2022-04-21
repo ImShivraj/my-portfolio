@@ -42,6 +42,7 @@ body{
     width: 70px;
     height: 70px;
     z-index: 1;
+    cursor: pointer;
     
   
 }
@@ -70,6 +71,7 @@ body{
 
 .navbar ul li.active a .icon{
     transform: translateY(-35px);
+
 }
 
 
@@ -115,3 +117,37 @@ body{
 .navbar ul li:nth-child(4).active ~ .indicator{
     transform: translateX(calc(70px * 3));
 }
+
+.header h1{
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+.innovations{
+    background-image: linear-gradient(
+        -225deg,
+        #3e71b3 0%,
+        #00ffff 29%,
+        #ff1361 67%,
+        #fff800 100%
+    );
+      background-size: auto auto;
+      background-clip: border-box;
+      background-size: 200% auto;
+      color: #fff;
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: textclip 3s linear infinite;
+      display: inline-block;
+      /* font-size: 82px; */
+      /* display: flex; */
+      /* justify-content: center; */
+      /* margin-top: 200px; */
+      /* font-family: "Courgette", cursive; */
+      /* white-space: nowrap; */
+      /* margin-bottom: 0px;
+} 
+
