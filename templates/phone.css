@@ -125,7 +125,10 @@ body{
     left: 0;
     
 }
-.innovations{
+.header .innovations{
+    margin-top: 300px;
+    justify-content: center;
+    align-items: center;
     background-image: linear-gradient(
         -225deg,
         #3e71b3 0%,
@@ -133,21 +136,21 @@ body{
         #ff1361 67%,
         #fff800 100%
     );
-      background-size: auto auto;
-      background-clip: border-box;
-      background-size: 200% auto;
-      color: #fff;
-      background-clip: text;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      animation: textclip 3s linear infinite;
-      display: inline-block;
-      /* font-size: 82px; */
-      /* display: flex; */
-      /* justify-content: center; */
-      /* margin-top: 200px; */
-      /* font-family: "Courgette", cursive; */
-      /* white-space: nowrap; */
-      /* margin-bottom: 0px;
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 82px; 
+
+    margin-top: 200px;
+    font-family: "Courgette", cursive;
+    white-space: nowrap;
+
 } 
+
 
