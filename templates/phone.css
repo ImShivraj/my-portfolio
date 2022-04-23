@@ -154,7 +154,7 @@ body{
     justify-content: center;
     font-family: 'Bangers', cursive;
     transform: translate(-50%, -50%);
-    margin-top: 350px;
+    margin-top: 370px;
     position: relative;
     left: 50%;
 
@@ -163,7 +163,7 @@ body{
 .header .projects a{
 
     display: block;
-    font-size: 17px;
+    font-size: 15px;
     text-decoration: none;
     color: #fff;
     font-family: 'Bangers', cursive;
@@ -175,6 +175,13 @@ body{
 }
 
 .projects a:hover{
-    letter-spacing: 7px;
+    letter-spacing: 6px;
 
+}
+.hello{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin: 37px 25px;
 }
