@@ -191,4 +191,40 @@ body{
     align-items: center;
     color: #fff;
     margin: 37px 25px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.myWork{
+    display: flex;
+
+    margin: 20px 25px;
+
+}
+
+.myWork h1{
+  outline: none;
+  background: linear-gradient(135deg, #7558ea, #f1448c, #f67e5d, #f1428b, #7152ec);
+  background-size: 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  animation: stillAnimate 10s alternate infinite;
+  font-family: 'Kanit', sans-serif;
+}
+
+.card{
+    box-shadow: rgba(248, 241, 241, 0.35) 0px 5px 15px;
+    color: hsl(200 50% 20%);
+    line-height: 1.5;
+    font-size: 1.5rem;
+    font-weight: 300;
+    width: 56vmin;
+    height: 55vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3ch;
+    border-radius: 2ch;
+    margin-top: 70px;
+    margin: 60px 40px;
 }
