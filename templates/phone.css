@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
-
+html{
+    scroll-behavior: smooth;
+}
 *{
     margin: 0px;
     padding: 0px;
@@ -219,7 +221,7 @@ body{
     font-size: 1.5rem;
     font-weight: 300;
     width: 56vmin;
-    height: 55vmin;
+    height: 66vmin;
     display: flex;
     justify-content: center;
     align-items: center;
