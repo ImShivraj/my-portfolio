@@ -37,8 +37,7 @@ body{
 .navbar ul{
     display: flex;
     width: 300px;
-    padding-left: 26px;
-    padding-top: 15px;
+    padding-left: 10px;
    
 }
 .navbar ul li{
@@ -48,6 +47,7 @@ body{
     height: 60px;
     z-index: 1;
     cursor: pointer;
+ 
     
   
 }
@@ -72,6 +72,8 @@ body{
     text-align: center;
     color: var(--clr);
     transition: 0.5s;
+    padding-right: 7px;
+ 
 }
 
 .navbar ul li.active a .icon{
@@ -88,6 +90,7 @@ body{
     transition: 0.5s;
     opacity: 0;
     transform: translateY(20px);
+ 
 }
 
 .navbar ul li.active a .text{
@@ -98,8 +101,8 @@ body{
 .indicator{
     position: absolute;
     top: -50%;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     background: rgb(140, 56, 223);
     border-radius: 50%;
     border: 5px solid var(--clr);
