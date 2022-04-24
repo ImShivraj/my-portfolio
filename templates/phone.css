@@ -37,7 +37,7 @@ body{
 .navbar ul{
     display: flex;
     width: 300px;
-    padding-left: 10px;
+    padding-left: 30px;
    
 }
 .navbar ul li{
@@ -74,6 +74,7 @@ body{
     transition: 0.5s;
     padding-right: 7px;
  
+ 
 }
 
 .navbar ul li.active a .icon{
@@ -90,6 +91,7 @@ body{
     transition: 0.5s;
     opacity: 0;
     transform: translateY(20px);
+   padding-right: 5px;
  
 }
 
