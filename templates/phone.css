@@ -187,7 +187,7 @@ body{
     letter-spacing: 6px;
 
 }
-.hello{
+.para{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -197,14 +197,14 @@ body{
     font-size: 16px;
 }
 
-.myWork{
+.titles{
     display: flex;
 
     margin: 20px 25px;
 
 }
 
-.myWork h1{
+.titles h1{
   outline: none;
   background: linear-gradient(135deg, #7558ea, #f1448c, #f67e5d, #f1428b, #7152ec);
   background-size: 400%;
@@ -237,7 +237,7 @@ body{
    
 }
 
-.github{
+.para{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -247,11 +247,43 @@ body{
     font-size: 16px;
 
 }
-.github p span a{
+#github p span a{
     
     color: #fff;
 }
 
-.github p span a:hover{
+#github p span a:hover{
     color: #7152ec;
 }
+
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+.app{
+    color: #fff;
+    padding-left: 10px;
+}
+
+.tweet{
+    color: #00ffff;
+}
+.disc{
+    color: #fff;
+    padding-left: 5px;
+}
+.insta{
+    color: #DB4089;
+    padding-left:29px;
+}
+.iconify{
+    
+    padding-left:19px;
+}
+.linkedin{
+    color: #0274B3;
+    padding-left:5px;
+}
+
