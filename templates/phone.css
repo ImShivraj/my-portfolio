@@ -262,6 +262,9 @@ body{
     align-items: center;
     margin-top: 12px;
 }
+.socials a{
+    text-decoration: none;
+}
 .app{
     color: #fff;
     padding-left: 10px;
