@@ -298,6 +298,7 @@ body{
     justify-content: center;
     animation: shake 1s ease infinite;
     color: #fff;
+    font-size: 15px;
     
 }
 
