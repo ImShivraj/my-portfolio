@@ -295,7 +295,7 @@ body{
 .shaking{
 
     display: flex;
-    margin: 10px 25px;
+    margin: 15px 25px;
     justify-content: center;
     animation: shake 1s ease infinite;
     color: #fff;
