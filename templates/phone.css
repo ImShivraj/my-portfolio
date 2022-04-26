@@ -326,3 +326,25 @@ body{
 #joinme{
     margin-top: 28px;
 }
+
+
+.why{
+    color: rgb(161, 125, 164);
+    font-size: 15px;
+    margin: 0px 25px;
+    padding-bottom: 12px;
+    
+}
+
+.perks{
+    color: #fff;
+    font-size: 11px;
+    margin: 7px 25px;
+}
+
+.in-perks{
+    padding-left: 18px;
+}
+#exp{
+    margin: 20px 25px;
+}
