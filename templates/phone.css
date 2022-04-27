@@ -75,7 +75,7 @@ body{
     text-align: center;
     color: var(--clr);
     transition: 0.5s;
-    padding-right: 7px;
+    padding-right: 8px;
  
  
 }
@@ -234,12 +234,13 @@ body{
 }
 #bluebird{
     background: url(../statics/bluebird.png) no-repeat center top/cover;
-    background-size: 31rem 16rem;
+    background-size: 30rem 16rem;
+    
 
 }
 #spotify{
     background: url(../statics/spotify.png) no-repeat center top/cover;
-    background-size: 31rem 16rem;
+    background-size: 30rem 16rem;
 
 }
 
