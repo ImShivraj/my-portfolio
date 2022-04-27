@@ -243,15 +243,33 @@ body{
 
 }
 
-.card a{
+.card .in-card{
     justify-content: center;
-    text-decoration: none;
-    color: #fff;
-    white-space: nowrap;
-    margin-top: 11rem;
-    -webkit-text-stroke: 1px rgb(140, 56, 223);
+    margin-top: 15rem;
     font-size: 2rem;
 }
+
+.card .in-card a{
+    text-decoration: none;
+    color: #fff;
+    -webkit-text-stroke: 1px rgb(140, 56, 223);
+    white-space: nowrap;
+}
+
+.card .in-card p{
+    margin-top: 0.7rem;
+}
+
+
+/* #bluebird p{
+    display: flex;
+    justify-content: center;
+    margin-top: 18rem;
+    margin-right: 10rem;
+    padding: 0px;
+
+
+} */
 
 
 .para{
