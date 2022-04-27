@@ -233,13 +233,13 @@ body{
    
 }
 #bluebird{
-    background: url(../statics/bluebird.png) no-repeat center top/cover;
+    background: url(/statics/bluebird.png) no-repeat center top/cover;
     background-size: 30rem 16rem;
     
 
 }
 #spotify{
-    background: url(../statics/spotify.png) no-repeat center top/cover;
+    background: url(/statics/spotify.png) no-repeat center top/cover;
     background-size: 30rem 16rem;
 
 }
