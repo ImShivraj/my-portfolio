@@ -363,7 +363,7 @@ body{
     font-size: 15px;
     margin: 0px 25px;
     padding-bottom: 5px;
-    -webkit-text-stroke: 0.1px rgb(140, 56, 223);
+    -webkit-text-stroke: 1px rgb(140, 56, 223);
 }
 
 #folks{
