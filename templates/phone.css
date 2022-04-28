@@ -246,32 +246,27 @@ body{
 
 .card .in-card{
     justify-content: center;
-    margin-top: 15rem;
+    margin-top: 16rem;
     font-size: 2rem;
+    align-items: center;
+    
 }
 
 .card .in-card a{
     text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #fff;
     -webkit-text-stroke: 1px rgb(140, 56, 223);
     white-space: nowrap;
+    font-family: 'Kanit', sans-serif;
 }
 
 .card .in-card p{
-    margin-top: 0.7rem;
+    margin-top: 0.6rem;
+    white-space: nowrap;
 }
-
-
-/* #bluebird p{
-    display: flex;
-    justify-content: center;
-    margin-top: 18rem;
-    margin-right: 10rem;
-    padding: 0px;
-
-
-} */
-
 
 .para{
     display: flex;
@@ -364,11 +359,11 @@ body{
 
 
 .why{
-    color: rgb(161, 125, 164);
+    color: #fff;
     font-size: 15px;
     margin: 0px 25px;
     padding-bottom: 5px;
-    
+    -webkit-text-stroke: 0.1px rgb(140, 56, 223);
 }
 
 #folks{
@@ -387,4 +382,42 @@ body{
 #exp{
     margin-top: 18px;
     padding-bottom: 5px;
+}
+
+.job-dates{
+    color: #fff;
+    font-size: 11px;
+    margin: 14px 25px;
+}
+
+.dates{
+    border: 2px solid rgb(140, 56, 223);
+    width: 12.2rem;
+}
+
+#acgc{
+    width: 10.9rem;
+}
+
+#yt{
+    width: 10rem;
+}
+
+.jobs{
+    font-size: 15px;
+}
+
+.job-dates-right{
+    position: absolute;
+    right: 0px;
+    color: #fff;
+    font-size: 11px;
+    /* margin: 6px 25px; */
+    margin-right: 25px;
+   
+    
+}
+
+#job3{
+    margin-top: 82px;
 }
