@@ -412,7 +412,7 @@ body{
     right: 0px;
     color: #fff;
     font-size: 11px;
-    /* margin: 6px 25px; */
+
     margin-right: 25px;
    
     
@@ -421,3 +421,17 @@ body{
 #job3{
     margin-top: 82px;
 }
+
+.finger img{
+    position: absolute;
+    height: 8rem;
+    width: 6.5rem;
+    right: 0;
+    top: 50;
+
+    
+}
+
+/* .finger{
+    margin-bottom: 250px;
+} */
