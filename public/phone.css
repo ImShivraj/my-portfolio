@@ -421,35 +421,3 @@ body{
 #job3{
     margin-top: 82px;
 }
-/* 
-.finger img{
-
-    height: 8rem;
-    width: 6.5rem;
-    right: 0;
-    margin-right: 37px;
-
-    
-}
-
-.finger{
-    display: inline-flex;
-    margin-top: 50px;
-    right: 0;
-
-} */
-#perk-img{
-    display: flex;
-}
-#perk-img img{
-    height: 8rem;
-    width: 6.5rem;
-    margin-left: 50px;
-    display: flex;
-
-}
-
-#h2-img{
-    /* margin: 6px 25px; */
-    /* padding: 0px; */
-}
