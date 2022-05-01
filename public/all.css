@@ -510,11 +510,11 @@ body{
 
 .job-dates-right{
     position: absolute;
-    right: 0px;
+    /* right: 0px; */
     color: #fff;
     font-size: 11px;
 
-    margin-right: 25px;
+    /* margin-right: 25px; */
    
     
 }
