@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" media="screen and (max-width: 640px)" href="phone.css">
     <link rel="stylesheet" media="screen and (min-width: 641px)" href="all.css">
+    <script type="text/javascript" src="script.js"></script>
 
 </head>
 
@@ -70,19 +71,15 @@
         </ul>
     </div>
 
-    <div id="cover">
-        <form method="get" action="">
-            <div class="tb">
-                <div class="td"><input type="text" placeholder="Search" required></div>
-                <div class="td" id="s-cover">
-                    <button type="submit">
-                        <div id="s-circle"></div>
-                        <span></span>
-                    </button>
-                </div>
-            </div>
-        </form>
-    </div>
+    <div class="searchBox">
+
+        <input class="searchInput" type="text" name="" placeholder="Search">
+        <button class="searchButton" href="#">
+            <ion-icon name="search-outline"></ion-icon>
+        </button>
+      </div>
+
+
 
     <div class="header">
         <h1>on a mission to revolutionize the tech industry with my <span class="innovations">innovations</span></h1>
@@ -319,6 +316,8 @@
         }
         item.forEach((part) =>
             part.addEventListener('click', activeLink));
+
+
     </script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
