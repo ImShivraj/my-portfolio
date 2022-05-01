@@ -31,12 +31,13 @@ body{
     justify-content: center;
     border-radius: 36px;
     bottom: 0;
-    left: 37%;
+    left: 0;
+    right: 0;
+    margin: -83px auto 0 auto;
     position: fixed;
     z-index: 1;
     
-  
-    /* margin: 0 auto; */
+
 
     
 
@@ -137,6 +138,8 @@ body{
     transform: translateX(calc(70px * 3));
 }
 
+
+
 .header h1{
     color: white;
     position: absolute;
@@ -145,8 +148,8 @@ body{
     font-family: 'Kanit', sans-serif;
     font-size: 45px;
     line-height: 1.1;
-    margin: 25px;
-    display: none;
+    margin-top: 140px;
+ 
 
 }
 .header .innovations{
