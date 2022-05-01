@@ -425,8 +425,10 @@ body{
 #mailto p span a{
     
     color: #fff;
+    
 }
 
 #mailto p span a:hover{
     color: #7152ec;
+    
 }

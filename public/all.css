@@ -17,8 +17,8 @@ html{
 body{
     /* display: flex;
     justify-content: center;
-    align-items: center; */
-    /* min-height: 100vh; */
+    align-items: center;
+    min-height: 100vh; */
     background: var(--clr);
 }
 .navbar{
@@ -31,11 +31,13 @@ body{
     justify-content: center;
     border-radius: 36px;
     bottom: 0;
-    left: 40%;
+    left: 37%;
     position: fixed;
     z-index: 1;
- 
-    margin: 0 auto;
+    
+  
+    /* margin: 0 auto; */
+
     
 
     
@@ -431,6 +433,7 @@ body{
 #mailto p span a{
     
     color: #fff;
+    transition: 0.5s;
 }
 
 #mailto p span a:hover{
