@@ -143,25 +143,21 @@ body{
 .searchBox {
     position: absolute;
     top: 4%;
-    left: 80%;
+    left: 50%;
     transform:  translate(-50%,50%);
     background: #2f3640;
     height: 40px;
     border-radius: 40px;
     padding: 10px;
-    box-shadow: 0 10px 40px rgb(140, 56, 223), 0 0 0 20px #ffffffeb;
-
-}
-
-.searchBox:hover > .searchInput {
+    box-shadow: rgb(140, 56, 223) 0px 0px 44px, #ffffffeb 0px 0px 0px 7px;
+    width: 150px;
+    padding: 0 6px;
     width: 240px;
     padding: 0 6px;
+    
+
 }
 
-.searchBox:hover > .searchButton {
-  background: white;
-  color : #2f3640;
-}
 
 .searchButton {
     color: white;
@@ -169,13 +165,20 @@ body{
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: #2f3640;
+    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: 0.4s;
-    font-size: 20px;
+    font-size: 24px;
 }
+.searchButton .searchicon{
+    color: #2f3640;
+}
+.searchButton:hover{
+    font-size: 26px;
+}
+
 
 .searchInput {
     border:none;
@@ -188,14 +191,9 @@ body{
     transition: 0.4s;
     line-height: 40px;
     width: 0px;
-
-}
-
-@media screen and (max-width: 640px) {
-.searchBox:hover > .searchInput {
     width: 150px;
     padding: 0 6px;
-}
+
 }
 
 
