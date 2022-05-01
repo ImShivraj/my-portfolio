@@ -29,6 +29,17 @@ body{
         opacity: 1;
      }
 }
+
+::-webkit-scrollbar{
+    width: 0.5rem;
+}
+::-webkit-scrollbar-track{
+    background: hsl(240, 21%, 8%);
+}
+::-webkit-scrollbar-thumb{
+    background: hsl(270, 72.3%, 54.7%);
+    border-radius: 100vw;
+}
 .navbar{
     position: relative;
     width: 24rem;
@@ -197,6 +208,9 @@ body{
 
 }
 
+.header{
+    margin-bottom: 100px;
+}
 
 .header h1{
     color: white;
@@ -270,17 +284,17 @@ body{
     font-size: 20px;  
 }
 
-.para p{
-    margin: 37px 180px;
-    font-size: 20px;
 
-}
 
 .titles{
     display: flex;
 
     margin: 20px 180px;
 
+}
+
+#projects{
+    margin-top: 100px;
 }
 
 .titles h1{
@@ -299,26 +313,25 @@ body{
     line-height: 1.5;
     font-size: 1.5rem;
     font-weight: 300;
-    width: 56vmin;
-    height: 76vmin;
+    width: 28rem;
+    height: 30rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 3ch;
     border-radius: 2ch;
-    margin-top: 70px;
-    margin: 60px 40px;
+    margin: 100px 60px;
+    margin-bottom: 50px;
    
 }
 #bluebird{
     background: url(bluebird.png) no-repeat center top/cover;
-    background-size: 30rem 16rem;
+    background-size: 37rem 16rem;
     
 
 }
 #spotify{
     background: url(spotify.png) no-repeat center top/cover;
-    background-size: 30rem 16rem;
+    background-size: 37rem 16rem;
 
 }
 
@@ -346,23 +359,29 @@ body{
     white-space: nowrap;
 }
 
-.para{
+.cardflex{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
-    margin: 37px 25px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-
 }
+
+#github{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+}
+
+
 #github p span a{
     
     color: #fff;
+    transition: 0.5s;
 }
 
 #github p span a:hover{
-    color: #7152ec;
+    color: rgb(140, 56, 223);
+    text-decoration: none;
 }
 
 .socials{
@@ -399,6 +418,10 @@ body{
     padding-left:5px;
 }
 
+#knowme{
+    margin-top: 100px;
+}
+
 
 .shaking{
 
@@ -432,7 +455,7 @@ body{
  }
 
 #joinme{
-    margin-top: 28px;
+    margin-top: 100px;
 }
 
 
@@ -507,5 +530,6 @@ body{
 }
 
 #mailto p span a:hover{
-    color: #7152ec;
+    color: rgb(140, 56, 223);
+    text-decoration: none;
 }
