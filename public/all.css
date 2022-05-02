@@ -422,6 +422,10 @@ body{
     margin-top: 100px;
 }
 
+.shaking{
+    margin: 100px 40px;
+    overflow:hidden;
+}
 
 .shaking h2{
 
@@ -432,7 +436,7 @@ body{
     -webkit-transform: translateX(-100%);
     transform: translateX(-100%);
     
-    -moz-animation: my-animation 15s linear infinite;
+    -moz-animation: my-animation 3s linear infinite;
     -webkit-animation: my-animation 15s linear infinite;
     animation: my-animation 15s linear infinite;
     color: #fff;
