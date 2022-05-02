@@ -523,6 +523,12 @@ body{
     margin-top: 82px;
 }
 
+.joinflex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #mailto p span a{
     
     color: #fff;
