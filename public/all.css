@@ -473,48 +473,40 @@ body{
 
 .perks{
     color: #fff;
-    font-size: 11px;
-    margin: 6px 25px;
+ 
 }
 
 .in-perks{
-    padding-left: 18px;
+    
 }
 #exp{
-    margin-top: 18px;
-    padding-bottom: 5px;
+
 }
 
 .job-dates{
     color: #fff;
-    font-size: 11px;
-    margin: 14px 25px;
+  
 }
 
 .dates{
-    border: 2px solid #f1428b;
-    width: 12.2rem;
+   
 }
-
 #acgc{
-    width: 10.9rem;
+    
 }
 
 #yt{
-    width: 10rem;
+ 
 }
 
 .jobs{
-    font-size: 15px;
+
 }
 
 .job-dates-right{
-    position: absolute;
-    /* right: 0px; */
-    color: #fff;
-    font-size: 11px;
 
-    /* margin-right: 25px; */
+    color: #fff;
+ 
    
     
 }
@@ -526,11 +518,13 @@ body{
 .joinflex{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
 #mailto p span a{
     
+
     color: #fff;
     transition: 0.5s;
 }
