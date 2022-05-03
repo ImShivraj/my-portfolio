@@ -294,7 +294,20 @@ body{
 }
 
 #projects{
+    margin-top: 280px;
+}
+
+.coding{
     margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.coding img{
+    height: 33rem;
+    width: 46rem;
 }
 
 .titles h1{
@@ -419,7 +432,7 @@ body{
 }
 
 #knowme{
-    margin-top: 100px;
+    margin-top: 280px;
 }
 
 .shaking{
