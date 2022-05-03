@@ -397,6 +397,26 @@ body{
     text-decoration: none;
 }
 
+#stranger{
+    margin-top: 150px;
+}
+
+.socialimg{
+    margin: 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.socialimg img{
+    height: 33rem;
+    width: 46rem;
+
+}
+
+
+
 .socials{
     display: flex;
     justify-content: center;
