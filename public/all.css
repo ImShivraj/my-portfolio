@@ -151,6 +151,10 @@ body{
     transform: translateX(calc(70px * 3));
 }
 
+.logo{
+    margin: 100px 240px;
+}
+
 
 
 .searchBox {
