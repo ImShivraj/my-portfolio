@@ -152,7 +152,16 @@ body{
 }
 
 .logo{
-    margin: 100px 240px;
+    position: absolute;
+    top: 10%;
+    margin-left: 180px;
+    margin-top: 18px;
+}
+
+.logo img{
+    width: 8rem;
+    height: 3rem;
+    
 }
 
 
