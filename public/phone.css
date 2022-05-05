@@ -223,6 +223,21 @@ body{
   font-family: 'Kanit', sans-serif;
 }
 
+
+.coding{
+    margin: 40px 25px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.coding img{
+    height: 13rem;
+    width: 20rem;
+}
+
 .card{
     box-shadow: rgba(248, 241, 241, 0.35) 0px 5px 15px;
     color: hsl(200 50% 20%);
@@ -293,6 +308,20 @@ body{
 
 #github p span a:hover{
     color: rgb(140, 56, 223);
+}
+
+.socialimg{
+    margin: 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.socialimg img{
+    height: 18rem;
+    width: 25rem;
+
 }
 
 .socials{
