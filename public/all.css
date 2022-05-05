@@ -155,7 +155,7 @@ body{
     position: absolute;
     top: 10%;
     margin-left: 180px;
-    margin-top: 16px;
+    margin-top: 14px;
 }
 
 .logo a img{
@@ -434,8 +434,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 12px;
+    margin-top: 17px;
 }
+
+.socials h3{
+    font-size: 22px;
+}
+
 .socials a{
     text-decoration: none;
 }
