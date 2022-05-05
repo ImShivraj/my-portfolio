@@ -292,7 +292,7 @@ body{
 }
 
 #github p span a:hover{
-    color: #7152ec;
+    color: rgb(140, 56, 223);
 }
 
 .socials{
@@ -437,7 +437,7 @@ body{
 }
 
 #mailto p span a:hover{
-    color: #7152ec;
+    color: rgb(140, 56, 223);
     
 }
 
