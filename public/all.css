@@ -441,14 +441,23 @@ body{
 
 .socials h3{
     font-size: 22px;
+
 }
 
 .socials a{
     text-decoration: none;
+    transition: 0.5s;
 }
+
 .app{
     color: #fff;
     padding-left: 10px;
+    transition: 0.5s;
+    
+}
+
+.app:hover{
+    color: rgb(140, 56, 223);
 }
 
 .tweet{
