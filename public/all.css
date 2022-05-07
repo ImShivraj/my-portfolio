@@ -234,6 +234,8 @@ body{
     font-size: 65px;
     line-height: 1.1;
     margin: 240px 180px;
+    margin-top: 300px;
+    
 
     width: 660px;
  
@@ -263,7 +265,7 @@ body{
     justify-content: center;
     font-family: 'Bangers', cursive;
     transform: translate(-50%, -50%);
-    margin-top: 670px;
+    margin-top: 740px;
     position: relative;
     left: 50%;
 
