@@ -490,48 +490,6 @@ body{
     display: none;
 }
 
-.shaking h2{
-
-    text-align: right;
-
-    /* animation properties */
-    -moz-transform: translateX(-100%);
-    -webkit-transform: translateX(-100%);
-    transform: translateX(-100%);
-    
-    -moz-animation: my-animation 3s linear infinite;
-    -webkit-animation: my-animation 15s linear infinite;
-    animation: my-animation 15s linear infinite;
-    color: #fff;
-    font-size: 15px;
-    
-}
-
-
-/* for Firefox */
-@-moz-keyframes my-animation {
-    from { -moz-transform: translateX(-100%); }
-    to { -moz-transform: translateX(100%); }
-  }
-  
-  /* for Chrome */
-  @-webkit-keyframes my-animation {
-    from { -webkit-transform: translateX(-100%); }
-    to { -webkit-transform: translateX(100%); }
-  }
-  
-  @keyframes my-animation {
-    from {
-      -moz-transform: translateX(-100%);
-      -webkit-transform: translateX(-100%);
-      transform: translateX(-100%);
-    }
-    to {
-      -moz-transform: translateX(100%);
-      -webkit-transform: translateX(100%);
-      transform: translateX(100%);
-    }
-  }
 
 
 #joinme{
@@ -551,36 +509,7 @@ body{
     margin-bottom: 13px;
 }
 
-.perks{
-    color: #fff;
- 
-}
 
-.in-perks{
-    
-}
-#exp{
-
-}
-
-.job-dates{
-    color: #fff;
-  
-}
-
-
-
-.job-dates-right{
-
-    color: #fff;
- 
-   
-    
-}
-
-#job3{
-    margin-top: 82px;
-}
 
 .joinflex{
     display: flex;
