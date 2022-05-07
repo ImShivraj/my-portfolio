@@ -478,6 +478,7 @@ body{
 .shaking{
     margin: 100px 40px;
     overflow:hidden;
+    display: none;
 }
 
 .shaking h2{
@@ -558,20 +559,7 @@ body{
   
 }
 
-.dates{
-   
-}
-#acgc{
-    
-}
 
-#yt{
- 
-}
-
-.jobs{
-
-}
 
 .job-dates-right{
 
@@ -591,6 +579,7 @@ body{
     justify-content: center;
     align-items: center;
     width: 100px;
+    display: none;
 }
 
 #mailto p span a{
