@@ -154,7 +154,7 @@ body{
 .logo{
     position: absolute;
     top: 10%;
-    margin-left: 180px;
+    margin-left: 215px;
     margin-top: 14px;
 }
 
@@ -233,7 +233,7 @@ body{
     font-family: 'Kanit', sans-serif;
     font-size: 65px;
     line-height: 1.1;
-    margin: 240px 180px;
+    margin: 240px 215px;
     margin-top: 300px;
     
 
@@ -295,7 +295,7 @@ body{
     align-items: center;
     color: #fff;
     font-family: 'Poppins', sans-serif;
-    margin: 37px 180px;
+    margin: 37px 215px;
     font-size: 20px;  
 }
 
@@ -414,6 +414,7 @@ body{
 
 #stranger{
     margin-top: 150px;
+    margin-left: 215px;
 }
 
 .socialimg{
