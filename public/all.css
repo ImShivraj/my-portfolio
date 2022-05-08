@@ -40,7 +40,7 @@ body{
     background: hsl(270, 72.3%, 54.7%);
     border-radius: 100vw;
 }
-.navbar{
+/* .navbar{
     position: relative;
     width: 24rem;
     height: 58px;
@@ -56,7 +56,7 @@ body{
     position: fixed;
     z-index: 1;
 
-}
+} */
 
 .navbar ul{
     display: flex;
@@ -535,3 +535,19 @@ body{
     text-decoration: none;
 }
 
+.footer{
+    display: flex;
+    margin-top: 200px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #2f3640;
+    color: white;
+    justify-content: left;
+  
+}
+
+.footer img{
+    margin-left: 204px;
+    margin-top: 50px;
+}
