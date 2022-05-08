@@ -431,7 +431,9 @@ body{
 
 }
 
-
+.social-wrapper{
+    margin-top: 80px;
+}
 
 .socials{
     display: flex;
