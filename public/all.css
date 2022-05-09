@@ -551,3 +551,8 @@ body{
     margin-left: 204px;
     margin-top: 50px;
 }
+
+#hitcounter{
+    height: 1.3rem;
+    /* margin-top: 100px; */
+}
