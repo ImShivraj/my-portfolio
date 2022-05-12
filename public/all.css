@@ -560,5 +560,10 @@ body{
 
 .visits{
     margin-top: 220px;
-    padding-right: 150px;
+    
+}
+
+.visits p{
+    margin-left: 0px;
+    margin-right: 40px;
 }
