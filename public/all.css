@@ -550,7 +550,7 @@ body{
 .logo-visit{
     display: flex;
     justify-content: center;
-    border: 3px solid tomato;
+    /* border: 3px solid tomato; */
 
 }
 #mylogo{
@@ -576,4 +576,17 @@ body{
 .visits p{
     margin-left: 0px;
     margin-right: 40px;
+}
+
+.actions{
+    /* border: 3px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.line{
+    display: flex;
+    flex-direction: column;
 }
