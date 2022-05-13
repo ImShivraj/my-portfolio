@@ -536,14 +536,14 @@ body{
 }
 
 .footer{
-    display: flex;
+    display: grid;
     margin-top: 200px;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: #2f3640;
     color: white;
-    justify-content: left;
+    
   
 }
 
