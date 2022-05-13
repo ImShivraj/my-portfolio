@@ -535,6 +535,10 @@ body{
     text-decoration: none;
 }
 
+.footer-wrapper{
+    background-color: #2f3640;
+}
+
 .footer{
     display: grid;
     margin-top: 200px;
@@ -554,9 +558,9 @@ body{
 
 }
 #mylogo{
-    margin-left: 204px;
+    margin-left: 100px;
     margin-top: 50px;
-    height: 10rem;
+    height: 11rem;
    
 }
 
@@ -579,14 +583,15 @@ body{
 }
 
 .actions{
-    /* border: 3px solid green; */
+    background-color: #2f3640;
+    color: #fff;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
     flex-direction: column;
+    margin: 30px 220px;
 }
 
-.line{
-    display: flex;
-    flex-direction: column;
+hr{
+    width: 58rem;
+    margin-left: 204px;
 }
