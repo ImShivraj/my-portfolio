@@ -40,7 +40,7 @@ body{
     background: hsl(270, 72.3%, 54.7%);
     border-radius: 100vw;
 }
-/* .navbar{
+.navbar{
     position: relative;
     width: 24rem;
     height: 58px;
@@ -56,7 +56,7 @@ body{
     position: fixed;
     z-index: 1;
 
-} */
+}
 
 .navbar ul{
     display: flex;
@@ -536,7 +536,8 @@ body{
 }
 
 .footer-wrapper{
-    background-color: #2f3640;
+    background-color: #1b1b24;
+    height: 32rem;
 }
 
 .footer{
@@ -545,7 +546,7 @@ body{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #2f3640;
+    background-color: #1b1b24;
     color: white;
     grid-template-columns: 1fr 1fr;
     
@@ -558,7 +559,7 @@ body{
 
 }
 #mylogo{
-    margin-left: 100px;
+    margin-left: 0px;
     margin-top: 50px;
     height: 11rem;
    
@@ -578,9 +579,9 @@ body{
 }
 
 .visits p{
-    position: relative;
-    margin-left: 0px;
-    margin-right: 40px;
+    position: absolute;
+    bottom: 10;
+    left: 20;
     
 }
 
@@ -614,7 +615,7 @@ body{
 
 
 .actions{
-    background-color: #2f3640;
+    background-color: #1b1b24;
     color: #fff;
     display: flex;
     justify-content: left;
@@ -624,6 +625,7 @@ body{
 
 
 hr{
+    margin-top: 18px;
     width: 58rem;
     margin-left: 204px;
 }
