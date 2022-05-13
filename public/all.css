@@ -547,12 +547,17 @@ body{
     
   
 }
+.logo-visit{
+    display: flex;
+    justify-content: center;
+    border: 3px solid tomato;
 
+}
 #mylogo{
     margin-left: 204px;
     margin-top: 50px;
     height: 10rem;
-    border: 3px solid green;
+   
 }
 
 #hitcounter{
@@ -564,7 +569,7 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 220px;
-    border: 3px solid tomato;
+    
     
 }
 
