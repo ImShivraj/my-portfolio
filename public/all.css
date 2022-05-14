@@ -487,6 +487,26 @@ body{
     margin-top: 280px;
 }
 
+.scrolling{
+    border: 2px solid rebeccapurple;
+    width: 58rem;
+    margin-left: 185px;
+    height: 18rem;
+
+}
+.techno-elements{
+    display: flex;
+}
+.techno-elements h2{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    
+}
+.withicons{
+    border: 2px solid red;
+}
+
 .shaking{
     margin: 100px 40px;
     overflow:hidden;
