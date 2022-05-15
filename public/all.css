@@ -504,6 +504,10 @@ body{
     
 }
 
+.techno-elements:hover{
+    animation-play-state: paused;
+}
+
 @keyframes lefttoright{
     0%{
         transform: translateX(-100%);
@@ -525,6 +529,13 @@ body{
     100%{
         transform: translateX(-100%);
     }
+}
+
+#second-techno:hover{
+    animation-play-state: paused;
+}
+#third-techno:hover{
+    animation-play-state: paused;
 }
 
 #third-techno{
