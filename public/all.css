@@ -488,17 +488,50 @@ body{
 }
 
 .scrolling{
-    border: 2px solid rebeccapurple;
+    /* border: 2px solid rebeccapurple; */
     width: 58rem;
+    margin-top: 40px;
     margin-left: 185px;
-    height: 38rem;
+    height: 48rem;
     overflow: hidden;
 
 }
 .techno-elements{
     display: flex;
-    margin: 80px 10px;
+    margin: 140px 10px;
+    transform: translateX(100%);
+    animation: lefttoright 11s linear infinite;
+    
 }
+
+@keyframes lefttoright{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}
+
+#second-techno{
+    transform: translateX(100%);
+    animation: righttoleft 9s linear infinite;
+}
+
+@keyframes righttoleft{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+#third-techno{
+    transform: translateX(100%);
+    animation: lefttoright 7s linear infinite;
+}
+
 .techno-elements h2{
     color: black;
     display: flex;
@@ -506,12 +539,18 @@ body{
     
 }
 .withicons{
-    border: 2px solid red;
+    font-size: 30px;
+    white-space: nowrap;
+   
+    box-shadow: rgba(168, 65, 241, 0.35) 0px 5px 15px;
     border-radius: 6px;
-    padding: 6px 10px;
-    background-color: #51e0c1;
-    margin: 0px 20px;
+    padding: 8px 10px;
+    padding-right: 30px;
+    background-color: #3f2981;
+    margin: 0px 25px;
 }
+
+
 
 .shaking{
     margin: 100px 40px;
