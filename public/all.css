@@ -586,6 +586,8 @@ body{
 
 #folks{
     margin-bottom: 13px;
+    display: flex;
+    justify-content: left;
 }
 
 
