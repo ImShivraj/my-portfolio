@@ -615,7 +615,7 @@ body{
 
 .footer-wrapper{
     background-color: #1b1b24;
-    height: 32rem;
+    height: 30rem;
 }
 
 .footer{
@@ -699,8 +699,19 @@ body{
     justify-content: left;
     flex-direction: column;
     margin: 30px 220px;
+    padding: 7px;
 }
 
+.copyright{
+    margin-top: 60px;
+    display: flex;
+}
+
+#hearts{
+    position: absolute;
+    right: 0;
+    margin-right: 230px;
+}
 
 hr{
     margin-top: 18px;
