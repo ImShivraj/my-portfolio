@@ -702,6 +702,15 @@ body{
     padding: 7px;
 }
 
+.actions h3 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.actions h3 a:hover{
+    color: rgb(218, 218, 218);
+}
+
 .copyright{
     margin-top: 65px;
     display: flex;
