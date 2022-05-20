@@ -480,3 +480,7 @@ body{
 .footer-wrapper{
     display: none;
 }
+
+.scrolling{
+    display: none;
+}
