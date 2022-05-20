@@ -756,11 +756,20 @@ hr{
 }
 
 .perks-inside{
-    margin: 25px 0px;
+    margin: 22.5px 0px;
     font-size: 17px;
+    
 }
 
 .date-jobs{
     font-size: 24px;
     font-weight: lighter;
+}
+
+.perks-inside h2{
+    font-weight: lighter;
+}
+
+#perks-head{
+    margin-bottom: 35px;
 }
