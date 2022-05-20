@@ -735,3 +735,9 @@ hr{
     width: 58rem;
     margin-left: 204px;
 }
+
+.exp-job{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #fff;
+}
