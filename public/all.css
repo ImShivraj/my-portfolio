@@ -752,14 +752,15 @@ hr{
 }
 
 .job-done{
-    margin: 35px 0px;
+    margin: 42px 0px;
 }
 
 .perks-inside{
-    margin: 35px 0px;
+    margin: 25px 0px;
     font-size: 17px;
 }
 
 .date-jobs{
     font-size: 24px;
+    font-weight: lighter;
 }
