@@ -53,6 +53,7 @@ body{
     left: 0;
     right: 0;
     margin: -83px auto 0 auto;
+    margin-bottom: 13px;
     position: fixed;
     z-index: 1;
 
@@ -776,8 +777,11 @@ hr{
 }
 
 #perks-head{
-    margin-bottom: 35px;
+    margin-bottom: 37px;
     border-top: 2px solid rgb(140, 56, 223);
     border-bottom: 2px solid rgb(140, 56, 223);
     width: 69%;
+}
+.perks-inside h2 span{
+    padding-left: 10px;
 }
