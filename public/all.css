@@ -735,6 +735,7 @@ hr{
     color: #fff;
     margin: 70px 208px;
     margin-left: 280px;
+    margin-top: 95px;
     
 }
 
@@ -742,20 +743,31 @@ hr{
     -webkit-text-stroke: 0.3px rgb(140, 56, 223);
     margin-bottom: 25px;
     font-size: 33px;
+    
+   
+}
+
+#my-exp{
+    border-top: 2px solid rgb(140, 56, 223);
+    border-bottom: 2px solid rgb(140, 56, 223);
+  
+    width: 55%;
+
+    
 }
 
 .job-done{
-    margin: 42px 0px;
+    margin: 40px 0px;
 }
 
 .perks-inside{
     margin: 22.5px 0px;
-    font-size: 17px;
+    font-size: 15px;
     
 }
 
 .date-jobs{
-    font-size: 24px;
+    font-size: 22px;
     font-weight: lighter;
 }
 
@@ -765,4 +777,7 @@ hr{
 
 #perks-head{
     margin-bottom: 35px;
+    border-top: 2px solid rgb(140, 56, 223);
+    border-bottom: 2px solid rgb(140, 56, 223);
+    width: 69%;
 }
