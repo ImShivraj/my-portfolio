@@ -486,4 +486,6 @@ body{
     display: none;
 }
 
-.exp-job{display: none;}
+.exp-job{
+    display: none;
+}
