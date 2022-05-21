@@ -309,7 +309,7 @@ body{
 }
 
 #projects{
-    margin-top: 280px;
+    margin-top: 180px;
 }
 
 .coding{
@@ -484,14 +484,14 @@ body{
 }
 
 #knowme{
-    margin-top: 280px;
+    margin-top: 180px;
 }
 
 .scrolling{
  
     width: 58rem;
     margin-top: 40px;
-    margin-left: 185px;
+    margin-left: 220px;
     height: 48rem;
     overflow: hidden;
 
@@ -564,8 +564,7 @@ body{
 
 
 .shaking{
-    margin: 100px 40px;
-    overflow:hidden;
+
     display: none;
 }
 
@@ -576,13 +575,7 @@ body{
 }
 
 
-.why{
-    color: #fff;
-    font-size: 15px;
-    margin: 0px 25px;
-    padding-bottom: 5px;
-    -webkit-text-stroke: 1px rgb(140, 56, 223);
-}
+
 
 #folks{
     margin-bottom: 13px;
