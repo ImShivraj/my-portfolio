@@ -9,8 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" media="screen and (max-width: 640px)" href="phone.css">
-    <link rel="stylesheet" media="screen and (min-width: 641px)" href="all.css">
+    {% load static %}
+    <link rel="stylesheet" media="screen and (max-width: 640px)" href="{% static 'phone.css' %}">
+    <link rel="stylesheet" media="screen and (min-width: 641px)" href="{% static 'all.css' %}">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 
 

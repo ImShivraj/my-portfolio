@@ -18,7 +18,7 @@ import os
 # BASE_DIR = Path(__file__).resolve().parent.parent
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FILES_DIR = os.path.abspath(os.path.join(BASE_DIR, '../public'))
-STATICFILES_DIRS = [os.path.abspath(os.path.join(BASE_DIR, '..', 'public'))]
+STATICFILES_DIRS = [os.path.abspath(os.path.join(BASE_DIR, '..', 'public'))] 
 
 
 # Quick-start development settings - unsuitable for production
@@ -59,7 +59,7 @@ ROOT_URLCONF = 'my_portfolio_website.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.abspath(os.path.join(BASE_DIR, '..', 'public'))],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

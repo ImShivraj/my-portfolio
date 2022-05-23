@@ -5,4 +5,5 @@ import os
 
 file_path = os.path.join(settings.FILES_DIR)
 def index(request):
-    return HttpResponse('this is homepage')
+    return render(request, 'index.html')
+    # return HttpResponse('this is homepage')
