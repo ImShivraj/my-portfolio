@@ -50,7 +50,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 24px;
+    border-radius: 21px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -74,9 +74,7 @@ body{
     height: 60px;
     z-index: 1;
     cursor: pointer;
- 
-    
-  
+
 }
 
 .navbar ul li a{
@@ -108,7 +106,6 @@ body{
     transform: translateY(-30px);
 
 }
-
 
 .navbar ul li a .text{
     position: absolute;
@@ -167,8 +164,6 @@ body{
     
 }
 
-
-
 .searchBox {
     position: absolute;
     top: 10%;
@@ -181,10 +176,8 @@ body{
     box-shadow: rgb(140, 56, 223) 0px 0px 64px, #ffffffeb 0px 0px 0px 7px;
     width: 280px;
     padding: 0 6px;
-    
 
 }
-
 
 .searchButton {
     color: white;
@@ -200,13 +193,14 @@ body{
     transition: 0.4s;
     font-size: 24px;
 }
+
 .searchButton .searchicon{
     color: #2f3640;
 }
+
 .searchButton:hover{
     font-size: 26px;
 }
-
 
 .searchInput {
     border:none;
@@ -238,12 +232,8 @@ body{
     line-height: 1.1;
     margin: 240px 215px;
     margin-top: 300px;
-    
-
     width: 660px;
  
- 
-
 }
 .header .innovations{
   outline: none;
@@ -256,6 +246,7 @@ body{
   font-weight: 900;
   
 }
+
 @keyframes gradient {
     to {
       background-position: 400% center;
@@ -275,7 +266,6 @@ body{
 }
 
 .header .projects a{
-
     display: block;
     font-size: 15px;
     text-decoration: none;
@@ -302,11 +292,8 @@ body{
     font-size: 20px;  
 }
 
-
-
 .titles{
     display: flex;
-
     margin: 20px 180px;
 
 }
@@ -402,7 +389,6 @@ body{
     align-items: center;
     
 }
-
 
 #github p span a{
     
@@ -564,29 +550,20 @@ body{
     margin: 0px 25px;
 }
 
-
-
 .shaking{
 
     display: none;
 }
 
-
-
 #joinme{
     margin-top: 100px;
 }
-
-
-
 
 #folks{
     margin-bottom: 13px;
     display: flex;
     justify-content: left;
 }
-
-
 
 .joinflex{
     display: flex;
@@ -753,9 +730,7 @@ hr{
 #my-exp{
     border-top: 2px solid rgb(140, 56, 223);
     border-bottom: 2px solid rgb(140, 56, 223);
-  
     width: 55%;
-
     
 }
 
